@@ -1,0 +1,27 @@
+/* About Section */
+.section {
+  margin-top: 48px;
+  text-align: center; /* centers all text inside the section */
+}
+
+.section h2 {
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+/* Card Styling */
+.card {
+  padding: 18px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+  border: 1px solid rgba(255,255,255,0.03);
+  max-width: 700px;
+  margin: 0 auto; /* centers the card horizontally */
+}
+
+/* Muted paragraph text */
+.muted {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 16px;
+}

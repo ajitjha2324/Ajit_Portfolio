@@ -1,0 +1,26 @@
+.skills-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  margin-top: 20px;
+}
+
+.skill-card {
+  flex: 0 1 140px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255,255,255,0.02); /* dimmed like portfolio cards */
+  border: 1px solid rgba(255,255,255,0.02);
+  transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  opacity: 0.95;
+}
